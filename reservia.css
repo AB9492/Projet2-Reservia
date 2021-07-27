@@ -1,3 +1,74 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 ul {
     list-style-type : none;
   }
+
+body
+{
+  font-family: "Raleway";  
+}
+
+h1
+{
+  font-size: 22px ;
+  padding-bottom: 8px;
+}
+
+h3
+{
+  font-size: small;
+}
+
+footer
+{
+  font-size: small;
+  background-color: #F2F2F2;
+}
+
+.container{
+  margin: 0px 3%;
+}
+
+.recherche p{
+  font-size: 16px;
+}
+a.fasfa-star
+{  
+  color: #DEEBFF;
+}
+.pleincentre { 
+  font-size: small;
+  padding-bottom: 20px;
+}
+
+.recherche-form
+{
+  padding-bottom: 28px;
+}
+
+.filtres {
+  padding-bottom: 28px;
+}
+.nav-link
+{
+  border-top: 2px solid black; 
+}
+
+.nav-register {
+  text-align: right ;
+  color: blue;
+}
+
+.tous-les-hotels {
+  background-color: #F2F2F2;
+}
+.nuit
+{ 
+  font-size: smaller;
+}
+
