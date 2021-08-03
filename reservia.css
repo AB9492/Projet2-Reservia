@@ -75,14 +75,14 @@ nav ul {
 
 .recherche p {
   font-size: 16px;
-  padding-bottom: 50px;
+  padding-bottom: 15px;
 }
 
 .recherche-form {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .recherche-form i {
@@ -116,16 +116,20 @@ nav ul {
 
 /*filtres*/
 
+.animaux{
+  width: 400px;
+}
+
 .filtres {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 35px;
 }
 
 .filtres h2 {
   font-size: 17px;
-  padding-right: 16px;
+  padding-right: 35px;
 }
 
 .filtres button {
@@ -194,6 +198,7 @@ footer {
   background-color: #f2f2f2;
   margin-top: 6rem;
   height: 15rem;
+  padding-right: 1100px;
 }
 
 .footer-item h3 {
@@ -215,7 +220,7 @@ footer {
   justify-content: space-between;
 }
 
-/*repartition des conteneur*/
+/*repartition des conteneurs*/
 
 .hebergement-a-marseille {
   flex-basis: 65%;
@@ -334,6 +339,45 @@ footer {
   padding: 15px 15px 15px 20px;
 
 }
+
+/* activités à marseille */
+
+.activite h2{
+  font-size: 20px;
+  padding: 50px 0px 30px 10px;
+}
+
+.activite-cartes{
+  display: grid;
+  /* fixer 3 colonnes */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 30px;
+  width: 92%;
+  margin: 0 auto;
+}
+.activite-cartes-item{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 5px #b1b1b1;
+  border-radius: 1.5rem;
+  padding: 5px;
+}
+
+.activite-cartes-item img{
+  
+}
+
+.activite-cartes-contenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 90px;
+  padding: 10px 0 0 15px;
+}
+
 
 /* Stars */
 
