@@ -1,6 +1,7 @@
 /* global */
 
 * {
+  /*permet de correspondre à tout les navigateurs*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -228,7 +229,7 @@ footer {
   justify-content: space-between;
 }
 
-/*repartition des conteneur*/
+/*repartition des conteneurs*/
 
 .hebergement-a-marseille {
   flex-basis: 65%;
@@ -317,7 +318,7 @@ footer {
   grid-gap: 30px;
   width: 80%;
   margin: auto;
-  /* cela va nous servir à centrer les cartes au milieu sans valeur en dure*/
+  /* cela va nous servir à centrer les cartes au milieu sans valeur en dur*/
   padding-top: 20px;
 }
 
@@ -336,7 +337,7 @@ footer {
   max-width: 35%;
   min-width: 35%;
   object-fit: cover;
-  /* evite que les images ne s'écrase */
+  /* evite que les images ne s'écrasent */
   border-radius: 1.5rem 0px 0px 1.5rem;
 }
 
